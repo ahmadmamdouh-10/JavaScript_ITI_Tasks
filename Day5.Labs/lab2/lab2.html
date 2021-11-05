@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+        font-size: large;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      table{
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+
+      th,td{
+        text-align: center;
+        padding: 50px;
+        
+      }
+
+      tr:nth-child(even){
+        background-color: #f2f2f2;;
+      }
+
+      th{
+        background-color: #3394D5;
+        color: white;
+
+      }
+
+      tr:nth-child(even):hover{
+        background-color:pink;
+        color: black;
+      }
+
+      tr:nth-child(odd):hover{
+        background-color:pink;
+        color: black;
+      }
+      #background{
+        background-color:salmon
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <div id="background">
+
+
+    <table>
+      <thead>
+          <tr>
+              <th>Title</th>
+              <th>Post</th>
+          </tr>
+      
+      </thead>
+      <tbody id="mytable">
+
+      </tbody>
+  </table>
+
+</div>
+
+
+    <script src="Script.js"></script>
+  </body>
+</html>
